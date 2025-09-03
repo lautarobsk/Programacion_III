@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Vuelos</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
 </head>
 
 <body>
-    <h1>Compañía Argentina</h1>
+    <header>
+        <h1 id="titulo">Aerolínea Argentina</h1>
 
-    <main>
-        
-        <h2>Gestión de Vuelos</h2>
-        
         <nav>
             <a href="#">Registrar usuario</a> |
             <a href="#">Consultar vuelos disponibles/reservar</a> |
@@ -21,7 +19,13 @@
             <a href="#">Eliminar reservas realizadas</a>
         </nav>
 
-        <br><br>
+    </header>
+    
+    <main>
+
+        <h2>Gestión de Vuelos</h2>
+
+        <br>
 
         <form action="pagina2.html">
             <label for="origen">Origen:</label>
@@ -47,7 +51,7 @@
 
             <br><br>
 
-            <div>
+            <div class="botones">
                 <button type="submit">Buscar</button>
                 <button type="reset">Cancelar</button>
             </div>

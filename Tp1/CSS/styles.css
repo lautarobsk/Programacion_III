@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    nav a {
+        display: flex;
+        margin: 10px 0;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    background: url(/image/fondo-navidad-estrellas-fugaces-al-azar-sutiles-copos-nieve-voladores-estrellas-sobre-fondo-cielo-invierno-impresionante-plantilla-superposicion-copo-nieve-plata-invierno-ilustraci.jpg) center center fixed;
+    background-size: cover;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(/image/bandera-argentina-modelo-avion_134398-8864.jpg) center center fixed;
+    background-size: cover;
+}
+
+main {
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    background-size: cover
+}
