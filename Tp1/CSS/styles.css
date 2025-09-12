@@ -1,14 +1,3 @@
-@media (max-width: 768px) {
-    nav a {
-        display: flex;
-        margin: 10px 0;
-    }
-    header {
-        flex-direction: column;
-        align-items: flex-start; 
-    }
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -32,8 +21,6 @@ body {
     background: url(/image/bandera-argentina-modelo-avion_134398-8864.jpg) center center fixed;
     background-size: cover;
 }
-
-
 
 main {
     padding: 20px;
@@ -66,3 +53,13 @@ footer {
     margin-top: auto;
 }
 
+@media (max-width: 768px) {
+    nav a {
+        display: flex;
+        margin: 10px 0;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+}
