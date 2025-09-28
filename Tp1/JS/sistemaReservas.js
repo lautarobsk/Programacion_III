@@ -1,7 +1,6 @@
-// Clase SistemaReservas
 class SistemaReservas {
     constructor() {
-        this.reservas = []; // Array interno de reservas
+        this.reservas = [];
     }
 
     agregarReserva(reserva) {
