@@ -15,6 +15,3 @@ class Estudiante(models.Model):
     edad = models.PositiveIntegerField()
     nota_curso = models.DecimalField(max_digits=4, decimal_places=2)
     curso = models.ForeignKey(Curso, on_delete=models.CASCADE)
-
-    def __str__(self):
-        return f"{self.nombre} {self.apellido}"

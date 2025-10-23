@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agregar</title>
+</head>
+<body>
+
+    {% block titulo %}Creación de Anuncio{% endblock %}
+    {% block contenido_principal %}
+
+        <header id="home" class="d-flex justify-content-center">
+            <h1>Creación de Anuncio</h1>
+        </header>
+
+
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="row g-3">
+
+                {% for field in form %}
+
+                    <div>
+
+                        {{ field.errors }}
+                        {{ field.label_tag }} {{ field }}
+
+                    </div>
+
+                    <br>
+
+                {% endfor %}
+                {% csrf_token %}
+
+            </div>
+
+            <div class="mt-3">
+
+                <button type="submit" class="btn btn-primary">Guardar</button>
+
+            </div>
+
+        </form>
+
+    {% endblock %}
+
+</body>
+</html>
