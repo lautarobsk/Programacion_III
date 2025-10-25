@@ -19,4 +19,3 @@ function Reserva(origen, destino, fechaVuelo, clase, cantidadPasajes, ubicacion,
     };
 }
 
-const listaReservas = [];
